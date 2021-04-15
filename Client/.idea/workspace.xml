@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8b91d7c2-8986-4dfe-9d10-1c7fb343b32d" name="Default Changelist" comment="" />
+    <list default="true" id="8b91d7c2-8986-4dfe-9d10-1c7fb343b32d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/resources/autumn.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/resources/spring.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/resources/summer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/resources/winter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

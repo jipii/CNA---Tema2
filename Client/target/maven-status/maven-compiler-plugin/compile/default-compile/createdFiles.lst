@@ -9,6 +9,7 @@ proto\ZodiacGrpc$ZodiacFileDescriptorSupplier.class
 proto\Client$1.class
 proto\ZodiacGrpc$1.class
 proto\Client$ZodiacResponse$Builder.class
+Main.class
 proto\ZodiacGrpc$MethodHandlers.class
 proto\Client$ZodiacRequestOrBuilder.class
 proto\ZodiacGrpc.class

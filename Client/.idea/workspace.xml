@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b91d7c2-8986-4dfe-9d10-1c7fb343b32d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/resources/autumn.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/resources/spring.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/resources/summer.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Server/src/main/resources/winter.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/services/AutumnImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/services/SpringImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/services/SummerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Server/src/main/java/services/WinterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Server" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RunManager">

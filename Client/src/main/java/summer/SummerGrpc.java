@@ -1,4 +1,4 @@
-package proto;
+package summer;
 
 import static io.grpc.MethodDescriptor.generateFullMethodName;
 import static io.grpc.stub.ClientCalls.asyncBidiStreamingCall;
@@ -19,39 +19,39 @@ import static io.grpc.stub.ServerCalls.asyncUnimplementedUnaryCall;
  */
 @javax.annotation.Generated(
     value = "by gRPC proto compiler (version 1.15.0)",
-    comments = "Source: client.proto")
-public final class ZodiacGrpc {
+    comments = "Source: summer.proto")
+public final class SummerGrpc {
 
-  private ZodiacGrpc() {}
+  private SummerGrpc() {}
 
-  public static final String SERVICE_NAME = "Zodiac";
+  public static final String SERVICE_NAME = "Summer";
 
   // Static method descriptors that strictly reflect the proto.
-  private static volatile io.grpc.MethodDescriptor<proto.Client.ZodiacRequest,
-      proto.Client.ZodiacResponse> getGetZodiacSignMethod;
+  private static volatile io.grpc.MethodDescriptor<summer.SummerOuterClass.ZodiacRequest,
+      summer.SummerOuterClass.ZodiacResponse> getGetZodiacSignMethod;
 
   @io.grpc.stub.annotations.RpcMethod(
       fullMethodName = SERVICE_NAME + '/' + "getZodiacSign",
-      requestType = proto.Client.ZodiacRequest.class,
-      responseType = proto.Client.ZodiacResponse.class,
+      requestType = summer.SummerOuterClass.ZodiacRequest.class,
+      responseType = summer.SummerOuterClass.ZodiacResponse.class,
       methodType = io.grpc.MethodDescriptor.MethodType.UNARY)
-  public static io.grpc.MethodDescriptor<proto.Client.ZodiacRequest,
-      proto.Client.ZodiacResponse> getGetZodiacSignMethod() {
-    io.grpc.MethodDescriptor<proto.Client.ZodiacRequest, proto.Client.ZodiacResponse> getGetZodiacSignMethod;
-    if ((getGetZodiacSignMethod = ZodiacGrpc.getGetZodiacSignMethod) == null) {
-      synchronized (ZodiacGrpc.class) {
-        if ((getGetZodiacSignMethod = ZodiacGrpc.getGetZodiacSignMethod) == null) {
-          ZodiacGrpc.getGetZodiacSignMethod = getGetZodiacSignMethod = 
-              io.grpc.MethodDescriptor.<proto.Client.ZodiacRequest, proto.Client.ZodiacResponse>newBuilder()
+  public static io.grpc.MethodDescriptor<summer.SummerOuterClass.ZodiacRequest,
+      summer.SummerOuterClass.ZodiacResponse> getGetZodiacSignMethod() {
+    io.grpc.MethodDescriptor<summer.SummerOuterClass.ZodiacRequest, summer.SummerOuterClass.ZodiacResponse> getGetZodiacSignMethod;
+    if ((getGetZodiacSignMethod = SummerGrpc.getGetZodiacSignMethod) == null) {
+      synchronized (SummerGrpc.class) {
+        if ((getGetZodiacSignMethod = SummerGrpc.getGetZodiacSignMethod) == null) {
+          SummerGrpc.getGetZodiacSignMethod = getGetZodiacSignMethod = 
+              io.grpc.MethodDescriptor.<summer.SummerOuterClass.ZodiacRequest, summer.SummerOuterClass.ZodiacResponse>newBuilder()
               .setType(io.grpc.MethodDescriptor.MethodType.UNARY)
               .setFullMethodName(generateFullMethodName(
-                  "Zodiac", "getZodiacSign"))
+                  "Summer", "getZodiacSign"))
               .setSampledToLocalTracing(true)
               .setRequestMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  proto.Client.ZodiacRequest.getDefaultInstance()))
+                  summer.SummerOuterClass.ZodiacRequest.getDefaultInstance()))
               .setResponseMarshaller(io.grpc.protobuf.ProtoUtils.marshaller(
-                  proto.Client.ZodiacResponse.getDefaultInstance()))
-                  .setSchemaDescriptor(new ZodiacMethodDescriptorSupplier("getZodiacSign"))
+                  summer.SummerOuterClass.ZodiacResponse.getDefaultInstance()))
+                  .setSchemaDescriptor(new SummerMethodDescriptorSupplier("getZodiacSign"))
                   .build();
           }
         }
@@ -62,34 +62,34 @@ public final class ZodiacGrpc {
   /**
    * Creates a new async stub that supports all call types for the service
    */
-  public static ZodiacStub newStub(io.grpc.Channel channel) {
-    return new ZodiacStub(channel);
+  public static SummerStub newStub(io.grpc.Channel channel) {
+    return new SummerStub(channel);
   }
 
   /**
    * Creates a new blocking-style stub that supports unary and streaming output calls on the service
    */
-  public static ZodiacBlockingStub newBlockingStub(
+  public static SummerBlockingStub newBlockingStub(
       io.grpc.Channel channel) {
-    return new ZodiacBlockingStub(channel);
+    return new SummerBlockingStub(channel);
   }
 
   /**
    * Creates a new ListenableFuture-style stub that supports unary calls on the service
    */
-  public static ZodiacFutureStub newFutureStub(
+  public static SummerFutureStub newFutureStub(
       io.grpc.Channel channel) {
-    return new ZodiacFutureStub(channel);
+    return new SummerFutureStub(channel);
   }
 
   /**
    */
-  public static abstract class ZodiacImplBase implements io.grpc.BindableService {
+  public static abstract class SummerImplBase implements io.grpc.BindableService {
 
     /**
      */
-    public void getZodiacSign(proto.Client.ZodiacRequest request,
-        io.grpc.stub.StreamObserver<proto.Client.ZodiacResponse> responseObserver) {
+    public void getZodiacSign(summer.SummerOuterClass.ZodiacRequest request,
+        io.grpc.stub.StreamObserver<summer.SummerOuterClass.ZodiacResponse> responseObserver) {
       asyncUnimplementedUnaryCall(getGetZodiacSignMethod(), responseObserver);
     }
 
@@ -99,8 +99,8 @@ public final class ZodiacGrpc {
             getGetZodiacSignMethod(),
             asyncUnaryCall(
               new MethodHandlers<
-                proto.Client.ZodiacRequest,
-                proto.Client.ZodiacResponse>(
+                summer.SummerOuterClass.ZodiacRequest,
+                summer.SummerOuterClass.ZodiacResponse>(
                   this, METHODID_GET_ZODIAC_SIGN)))
           .build();
     }
@@ -108,26 +108,26 @@ public final class ZodiacGrpc {
 
   /**
    */
-  public static final class ZodiacStub extends io.grpc.stub.AbstractStub<ZodiacStub> {
-    private ZodiacStub(io.grpc.Channel channel) {
+  public static final class SummerStub extends io.grpc.stub.AbstractStub<SummerStub> {
+    private SummerStub(io.grpc.Channel channel) {
       super(channel);
     }
 
-    private ZodiacStub(io.grpc.Channel channel,
+    private SummerStub(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected ZodiacStub build(io.grpc.Channel channel,
+    protected SummerStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
-      return new ZodiacStub(channel, callOptions);
+      return new SummerStub(channel, callOptions);
     }
 
     /**
      */
-    public void getZodiacSign(proto.Client.ZodiacRequest request,
-        io.grpc.stub.StreamObserver<proto.Client.ZodiacResponse> responseObserver) {
+    public void getZodiacSign(summer.SummerOuterClass.ZodiacRequest request,
+        io.grpc.stub.StreamObserver<summer.SummerOuterClass.ZodiacResponse> responseObserver) {
       asyncUnaryCall(
           getChannel().newCall(getGetZodiacSignMethod(), getCallOptions()), request, responseObserver);
     }
@@ -135,25 +135,25 @@ public final class ZodiacGrpc {
 
   /**
    */
-  public static final class ZodiacBlockingStub extends io.grpc.stub.AbstractStub<ZodiacBlockingStub> {
-    private ZodiacBlockingStub(io.grpc.Channel channel) {
+  public static final class SummerBlockingStub extends io.grpc.stub.AbstractStub<SummerBlockingStub> {
+    private SummerBlockingStub(io.grpc.Channel channel) {
       super(channel);
     }
 
-    private ZodiacBlockingStub(io.grpc.Channel channel,
+    private SummerBlockingStub(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected ZodiacBlockingStub build(io.grpc.Channel channel,
+    protected SummerBlockingStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
-      return new ZodiacBlockingStub(channel, callOptions);
+      return new SummerBlockingStub(channel, callOptions);
     }
 
     /**
      */
-    public proto.Client.ZodiacResponse getZodiacSign(proto.Client.ZodiacRequest request) {
+    public summer.SummerOuterClass.ZodiacResponse getZodiacSign(summer.SummerOuterClass.ZodiacRequest request) {
       return blockingUnaryCall(
           getChannel(), getGetZodiacSignMethod(), getCallOptions(), request);
     }
@@ -161,26 +161,26 @@ public final class ZodiacGrpc {
 
   /**
    */
-  public static final class ZodiacFutureStub extends io.grpc.stub.AbstractStub<ZodiacFutureStub> {
-    private ZodiacFutureStub(io.grpc.Channel channel) {
+  public static final class SummerFutureStub extends io.grpc.stub.AbstractStub<SummerFutureStub> {
+    private SummerFutureStub(io.grpc.Channel channel) {
       super(channel);
     }
 
-    private ZodiacFutureStub(io.grpc.Channel channel,
+    private SummerFutureStub(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
       super(channel, callOptions);
     }
 
     @java.lang.Override
-    protected ZodiacFutureStub build(io.grpc.Channel channel,
+    protected SummerFutureStub build(io.grpc.Channel channel,
         io.grpc.CallOptions callOptions) {
-      return new ZodiacFutureStub(channel, callOptions);
+      return new SummerFutureStub(channel, callOptions);
     }
 
     /**
      */
-    public com.google.common.util.concurrent.ListenableFuture<proto.Client.ZodiacResponse> getZodiacSign(
-        proto.Client.ZodiacRequest request) {
+    public com.google.common.util.concurrent.ListenableFuture<summer.SummerOuterClass.ZodiacResponse> getZodiacSign(
+        summer.SummerOuterClass.ZodiacRequest request) {
       return futureUnaryCall(
           getChannel().newCall(getGetZodiacSignMethod(), getCallOptions()), request);
     }
@@ -193,10 +193,10 @@ public final class ZodiacGrpc {
       io.grpc.stub.ServerCalls.ServerStreamingMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.ClientStreamingMethod<Req, Resp>,
       io.grpc.stub.ServerCalls.BidiStreamingMethod<Req, Resp> {
-    private final ZodiacImplBase serviceImpl;
+    private final SummerImplBase serviceImpl;
     private final int methodId;
 
-    MethodHandlers(ZodiacImplBase serviceImpl, int methodId) {
+    MethodHandlers(SummerImplBase serviceImpl, int methodId) {
       this.serviceImpl = serviceImpl;
       this.methodId = methodId;
     }
@@ -206,8 +206,8 @@ public final class ZodiacGrpc {
     public void invoke(Req request, io.grpc.stub.StreamObserver<Resp> responseObserver) {
       switch (methodId) {
         case METHODID_GET_ZODIAC_SIGN:
-          serviceImpl.getZodiacSign((proto.Client.ZodiacRequest) request,
-              (io.grpc.stub.StreamObserver<proto.Client.ZodiacResponse>) responseObserver);
+          serviceImpl.getZodiacSign((summer.SummerOuterClass.ZodiacRequest) request,
+              (io.grpc.stub.StreamObserver<summer.SummerOuterClass.ZodiacResponse>) responseObserver);
           break;
         default:
           throw new AssertionError();
@@ -225,32 +225,32 @@ public final class ZodiacGrpc {
     }
   }
 
-  private static abstract class ZodiacBaseDescriptorSupplier
+  private static abstract class SummerBaseDescriptorSupplier
       implements io.grpc.protobuf.ProtoFileDescriptorSupplier, io.grpc.protobuf.ProtoServiceDescriptorSupplier {
-    ZodiacBaseDescriptorSupplier() {}
+    SummerBaseDescriptorSupplier() {}
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.FileDescriptor getFileDescriptor() {
-      return proto.Client.getDescriptor();
+      return summer.SummerOuterClass.getDescriptor();
     }
 
     @java.lang.Override
     public com.google.protobuf.Descriptors.ServiceDescriptor getServiceDescriptor() {
-      return getFileDescriptor().findServiceByName("Zodiac");
+      return getFileDescriptor().findServiceByName("Summer");
     }
   }
 
-  private static final class ZodiacFileDescriptorSupplier
-      extends ZodiacBaseDescriptorSupplier {
-    ZodiacFileDescriptorSupplier() {}
+  private static final class SummerFileDescriptorSupplier
+      extends SummerBaseDescriptorSupplier {
+    SummerFileDescriptorSupplier() {}
   }
 
-  private static final class ZodiacMethodDescriptorSupplier
-      extends ZodiacBaseDescriptorSupplier
+  private static final class SummerMethodDescriptorSupplier
+      extends SummerBaseDescriptorSupplier
       implements io.grpc.protobuf.ProtoMethodDescriptorSupplier {
     private final String methodName;
 
-    ZodiacMethodDescriptorSupplier(String methodName) {
+    SummerMethodDescriptorSupplier(String methodName) {
       this.methodName = methodName;
     }
 
@@ -265,11 +265,11 @@ public final class ZodiacGrpc {
   public static io.grpc.ServiceDescriptor getServiceDescriptor() {
     io.grpc.ServiceDescriptor result = serviceDescriptor;
     if (result == null) {
-      synchronized (ZodiacGrpc.class) {
+      synchronized (SummerGrpc.class) {
         result = serviceDescriptor;
         if (result == null) {
           serviceDescriptor = result = io.grpc.ServiceDescriptor.newBuilder(SERVICE_NAME)
-              .setSchemaDescriptor(new ZodiacFileDescriptorSupplier())
+              .setSchemaDescriptor(new SummerFileDescriptorSupplier())
               .addMethod(getGetZodiacSignMethod())
               .build();
         }

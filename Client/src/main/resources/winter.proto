@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "winter";
+
+service Winter{
+  rpc getZodiacSign (ZodiacRequest) returns (ZodiacResponse) {}
+}
+
+message ZodiacRequest {
+  string month = 1;
+  string day = 2;
+  string year = 3;
+}
+
+message ZodiacResponse {
+  string zodiacSign = 1;
+}

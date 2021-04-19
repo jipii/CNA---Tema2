@@ -1,4 +1,4 @@
-01/03 20/03 Pisces
-21/03 20/04 Aries
-21/04 21/05 Taurus
-22/05 31/05 Gemini
+03/01 03/20 Pisces
+03/21 04/20 Aries
+04/21 05/21 Taurus
+05/22 05/31 Gemini

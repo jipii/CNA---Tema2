@@ -1,7 +1,13 @@
+import autumn.AutumnGrpc;
+import autumn.AutumnOuterClass;
 import io.grpc.ManagedChannel;
 import io.grpc.ManagedChannelBuilder;
-import proto.Client;
-import proto.ZodiacGrpc;
+import spring.SpringGrpc;
+import spring.SpringOuterClass;
+import summer.SummerGrpc;
+import summer.SummerOuterClass;
+import winter.WinterGrpc;
+import winter.WinterOuterClass;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
@@ -10,18 +16,60 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args){
 
-        ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 8000).usePlaintext().build();
-
-        ZodiacGrpc.ZodiacBlockingStub dataStub = ZodiacGrpc.newBlockingStub(channel);
 
        String date = read();
        if(validation(date) == false)
            System.out.println("Invalid date! ");
         else {
-           Client.ZodiacResponse response = dataStub.getZodiacSign(Client.ZodiacRequest.newBuilder().setMonth(date).build());
-           System.out.println(response.getZodiacSign());
+           System.out.println("Valid date! ");
 
-           channel.shutdown();
+           ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 8000).usePlaintext().build();
+           int month = Integer.parseInt(date.split("/")[0]);
+           int day = Integer.parseInt(date.split("/")[1]);
+           int year = Integer.parseInt(date.split("/")[2]);
+            switch(month){
+                case 3:
+                case 4:
+                case 5:
+                    SpringGrpc.SpringBlockingStub springBlockingStub = SpringGrpc.newBlockingStub(channel);
+                    SpringOuterClass.ZodiacResponse zodiacSpring = springBlockingStub.getZodiacSign(SpringOuterClass.ZodiacRequest.newBuilder()
+                            .setMonth(Integer.toString(month))
+                            .setDay(Integer.toString(day))
+                            .setYear(Integer.toString(year)).build());
+                    System.out.println(zodiacSpring.getZodiacSign());
+                    break;
+                case 6:
+                case 7:
+                case 8:
+                    SummerGrpc.SummerBlockingStub summerBlockingStub = SummerGrpc.newBlockingStub(channel);
+                    SummerOuterClass.ZodiacResponse zodiacSummer = summerBlockingStub.getZodiacSign(SummerOuterClass.ZodiacRequest.newBuilder()
+                            .setMonth(Integer.toString(month))
+                            .setDay(Integer.toString(day))
+                            .setYear(Integer.toString(year)).build());
+                    System.out.println(zodiacSummer.getZodiacSign());
+                    break;
+                case 9:
+                case 10:
+                case 11:
+                    AutumnGrpc.AutumnBlockingStub autumnBlockingStub = AutumnGrpc.newBlockingStub(channel);
+                    AutumnOuterClass.ZodiacResponse zodiacAutumn = autumnBlockingStub.getZodiacSign(AutumnOuterClass.ZodiacRequest.newBuilder()
+                            .setMonth(Integer.toString(month))
+                            .setDay(Integer.toString(day))
+                            .setYear(Integer.toString(year)).build());
+                    System.out.println(zodiacAutumn.getZodiacSign());
+                    break;
+                case 12:
+                case 1:
+                case 2:
+                    WinterGrpc.WinterBlockingStub winterBlockingStub = WinterGrpc.newBlockingStub(channel);
+                    WinterOuterClass.ZodiacResponse zodiacWinter = winterBlockingStub.getZodiacSign(WinterOuterClass.ZodiacRequest.newBuilder()
+                            .setMonth(Integer.toString(month))
+                            .setDay(Integer.toString(day))
+                            .setYear(Integer.toString(year)).build());
+                    System.out.println(zodiacWinter.getZodiacSign());
+                    break;
+
+            }
        }
     }
 

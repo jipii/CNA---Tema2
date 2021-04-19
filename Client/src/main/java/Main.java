@@ -20,7 +20,6 @@ public class Main {
        if(validation(date) == false)
            System.out.println("Invalid date! ");
         else {
-           System.out.println("Valid date! ");
 
            ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 8000).usePlaintext().build();
 

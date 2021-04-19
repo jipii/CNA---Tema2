@@ -10,10 +10,12 @@ winter\WinterGrpc$MethodHandlers.class
 spring\SpringOuterClass$ZodiacRequest$Builder.class
 winter\WinterGrpc$WinterFutureStub.class
 autumn\AutumnGrpc$AutumnStub.class
+services\WinterImpl.class
 summer\SummerOuterClass$ZodiacRequest$1.class
 winter\WinterGrpc$1.class
 autumn\AutumnGrpc.class
 spring\SpringOuterClass.class
+services\AutumnImpl.class
 winter\WinterOuterClass$ZodiacResponse$1.class
 spring\SpringGrpc$SpringFileDescriptorSupplier.class
 summer\SummerGrpc$SummerMethodDescriptorSupplier.class
@@ -54,7 +56,9 @@ spring\SpringGrpc.class
 winter\WinterOuterClass$ZodiacRequest$1.class
 Main.class
 autumn\AutumnGrpc$AutumnFileDescriptorSupplier.class
+services\SummerImpl.class
 autumn\AutumnGrpc$AutumnImplBase.class
+services\SpringImpl.class
 summer\SummerOuterClass$ZodiacRequest.class
 winter\WinterOuterClass$ZodiacResponse.class
 autumn\AutumnGrpc$AutumnFutureStub.class

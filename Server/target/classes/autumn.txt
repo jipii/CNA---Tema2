@@ -1,4 +1,4 @@
-01/09 22/09 Virgo
-23/09 22/10 Libra
-23/10 21/11 Scorpio
-22/11 30/11 Sagittarius
+9 1 9 22 Virgo
+9 23 10 22 Libra
+10 23 11 21 Scorpio
+11 22 11 30 Sagittarius

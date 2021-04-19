@@ -15,5 +15,12 @@ public class Main {
                 .addService(new WinterImpl())
                 .build();
 
+        try {
+            server.start();
+            System.out.println("Server started at " + server.getPort());
+            server.awaitTermination();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 }

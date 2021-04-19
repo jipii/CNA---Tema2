@@ -1,9 +1,13 @@
 D:\CNA---Tema2\Server\src\main\java\winter\WinterGrpc.java
+D:\CNA---Tema2\Server\src\main\java\summer\SummerGrpc.java
+D:\CNA---Tema2\Server\src\main\java\services\SummerImpl.java
+D:\CNA---Tema2\Server\src\main\java\winter\WinterOuterClass.java
+D:\CNA---Tema2\Server\src\main\java\services\WinterImpl.java
+D:\CNA---Tema2\Server\src\main\java\services\AutumnImpl.java
+D:\CNA---Tema2\Server\src\main\java\summer\SummerOuterClass.java
+D:\CNA---Tema2\Server\src\main\java\services\SpringImpl.java
 D:\CNA---Tema2\Server\src\main\java\autumn\AutumnOuterClass.java
 D:\CNA---Tema2\Server\src\main\java\spring\SpringGrpc.java
-D:\CNA---Tema2\Server\src\main\java\summer\SummerGrpc.java
-D:\CNA---Tema2\Server\src\main\java\winter\WinterOuterClass.java
 D:\CNA---Tema2\Server\src\main\java\Main.java
 D:\CNA---Tema2\Server\src\main\java\spring\SpringOuterClass.java
 D:\CNA---Tema2\Server\src\main\java\autumn\AutumnGrpc.java
-D:\CNA---Tema2\Server\src\main\java\summer\SummerOuterClass.java

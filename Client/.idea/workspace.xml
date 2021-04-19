@@ -8,10 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/resources/autumn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/resources/autumn.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/resources/spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/resources/spring.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/resources/summer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/resources/summer.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/resources/winter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/resources/winter.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/services/AutumnImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/services/AutumnImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/services/SpringImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/services/SpringImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/services/SummerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/services/SummerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/services/WinterImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/services/WinterImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Server/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

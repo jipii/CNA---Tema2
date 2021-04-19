@@ -16,7 +16,6 @@ import java.util.regex.Pattern;
 public class Main {
     public static void main(String[] args){
 
-
        String date = read();
        if(validation(date) == false)
            System.out.println("Invalid date! ");
@@ -24,9 +23,11 @@ public class Main {
            System.out.println("Valid date! ");
 
            ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 8000).usePlaintext().build();
+
            int month = Integer.parseInt(date.split("/")[0]);
            int day = Integer.parseInt(date.split("/")[1]);
            int year = Integer.parseInt(date.split("/")[2]);
+
             switch(month){
                 case 3:
                 case 4:
@@ -68,7 +69,6 @@ public class Main {
                             .setYear(Integer.toString(year)).build());
                     System.out.println(zodiacWinter.getZodiacSign());
                     break;
-
             }
        }
     }

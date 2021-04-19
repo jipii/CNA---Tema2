@@ -5,26 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b91d7c2-8986-4dfe-9d10-1c7fb343b32d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/autumn/AutumnOuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/spring/SpringGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/summer/SummerGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/summer/SummerOuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/winter/WinterGrpc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/winter/WinterOuterClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/autumn.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spring.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/summer.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/winter.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proto/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/spring/SpringOuterClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proto/ZodiacGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/autumn/AutumnGrpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/client.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/client.proto" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Server/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/src/main/resources/autumn.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/resources/autumn.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/src/main/resources/spring.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/resources/spring.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Server/src/main/resources/summer.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../Server/src/main/resources/summer.txt" afterDir="false" />

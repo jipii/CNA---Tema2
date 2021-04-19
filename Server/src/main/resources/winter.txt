@@ -1,4 +1,4 @@
-12/01 12/21 Sagittarius
-12/22 01/20 Capricorn
-01/21 02/18 Aquarius
-02/19 02/29 Pisces
+12 1 12 21 Sagittarius
+12 22 1 20 Capricorn
+1 21 2 18 Aquarius
+2 19 2 29 Pisces

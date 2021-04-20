@@ -1,6 +1,5 @@
 package services;
 
-import autumn.AutumnOuterClass;
 import io.grpc.stub.StreamObserver;
 import spring.SpringGrpc;
 import spring.SpringOuterClass;

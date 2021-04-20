@@ -1,7 +1,6 @@
 package services;
 
 import io.grpc.stub.StreamObserver;
-import spring.SpringOuterClass;
 import summer.SummerGrpc;
 import summer.SummerOuterClass;
 

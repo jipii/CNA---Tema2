@@ -20,7 +20,7 @@ public class Main {
        if(validation(date) == false)
            System.out.println("Invalid date! ");
         else {
-
+           System.out.println("Valid date! ");
            ManagedChannel channel = ManagedChannelBuilder.forAddress("localhost", 8000).usePlaintext().build();
 
            int month = Integer.parseInt(date.split("/")[0]);
@@ -84,7 +84,7 @@ public class Main {
     }
 
     public static boolean validation(String date){
-       String regex="^(0?[1-9]|1[012])/((?:19|20)[0-9][0-9])/(0?[1-9]|[12][0-9]|3[01])$";
+       String regex="^(0[1-9]|1[012])/(0[1-9]|[12][0-9]|3[01])/(19|20)[0-9]{2}$";
        Pattern pattern = Pattern.compile(regex);
        boolean result= false;
        Matcher matcher = pattern.matcher(date);

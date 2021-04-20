@@ -1,7 +1,6 @@
 package services;
 
 import io.grpc.stub.StreamObserver;
-import summer.SummerOuterClass;
 import winter.WinterGrpc;
 import winter.WinterOuterClass;
 
